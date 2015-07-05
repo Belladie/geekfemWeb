@@ -214,3 +214,20 @@ body {
 #footer a:hover {
   text-decoration: underline;
 }
+
+#imageright {    
+  float: right;
+  padding: 10px 0px 10px 20px;
+}
+
+#image {
+  padding: 10px 10px 10px 0px;   
+}
+
+#image .rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
